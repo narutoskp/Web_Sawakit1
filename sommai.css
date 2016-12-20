@@ -168,6 +168,7 @@ html, body {
 }
 
 .text-sce3-deteil {
+    height: 120px;
     font-family: 'Trirong', serif;
     font-weight: 300;
     font-size: 14px;
