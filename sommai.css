@@ -317,6 +317,7 @@ html, body {
     color: white;
     border-radius: 0px;
     border-bottom: solid 2px white;
+    box-shadow: none;
     margin-bottom: 20px;
 }
 .form-control:focus{
