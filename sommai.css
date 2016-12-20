@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css?family=Trirong:300,700&subset=thai');
+
+@font-face {
+    font-family: ThaiSansNeue-Bold;
+    src: url(font/ThaiSansNeue-Bold.otf);
+}
+
+@font-face {
+    font-family: ThaiSansNeue-light;
+    src: url(font/ThaiSansNeue-Light.otf);
+}
+
+@font-face {
+    font-family: ThaiSansNeue-reguler;
+    src: url(font/ThaiSansNeue-Regular.otf);
+}
+
+html, body {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("img/bg-sommai.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    margin: 0;
+    position: relative;
+    display: block;
+}
+
+#section1 {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+#section2 {
+    height: auto;
+    width: 100%;
+    background-color: #43A4F9;
+}
+
+#section2_1{
+    height: auto;
+    background-color: #CCCCCC;
+}
+
+#section3 {
+    height: auto;
+    width: 100%;
+    background-color: white;
+}
+
+#section4 {
+    height: auto;
+    width: 100%;
+}
+
+#ContactUS {
+    height: auto;
+    font-family: 'Trirong', serif;
+    color: white;
+    background-color: #6DC6F9;
+}
+.footerLeft{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #6DC6F9;
+}
+
+.logo_Sommai {
+    font-size: 36px;
+    color: white;
+}
+
+.text_head1 {
+    font-family: ThaiSansNeue-Bold;
+    color: white;
+    font-size: 106px;
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 10px;
+}
+
+.text_detail1 {
+    font-family: ThaiSansNeue-light;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 20px;
+}
+
+.btn-vdo {
+    font-family: ThaiSansNeue-light;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    background: no-repeat;
+    border: none;
+    position: static;
+    padding-top: 10px;
+    margin-bottom: 100px;
+}
+.btn-vdo:hover{
+    text-decoration: underline;
+}
+
+.text_head2 {
+    font-family: ThaiSansNeue-Bold;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.text_detail2 {
+    font-family: 'Trirong', serif;
+    font-weight: lighter;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.text_head3 {
+    font-family: ThaiSansNeue-Bold;
+    font-size: 48px;
+    color: #1A1A1A;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.footerRight{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #43A4F9;
+}
+.text_footer_contact{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 2px;
+}
+.textfooter1 {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.textfooter2 {
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+}
+
+.social{
+    margin-top: 10px;
+    text-align: center;
+}
+.text-sce3-title {
+    font-family: ThaiSansNeue-reguler;
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text-sce3-deteil {
+    font-family: 'Trirong', serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+}
+
+.img-sec3 {
+    margin: auto;
+}
+
+.btn-warning {
+    font-family: ThaiSansNeue-light;
+    font-size: 24px;
+    background-color: #F7931E;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+.btn-warning:hover{
+    color: #1A1A1A;
+}
+
+.btn-more {
+    font-family: ThaiSansNeue-light;
+    font-size: 16px;
+    color: #F7931E;
+    background: transparent;
+    border-color: #F7931E;
+    margin-bottom: 50px;
+}
+
+.sec3-upRow {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.sec3-underRow {
+    padding-bottom: 50px;
+}
+
+.copyright-sommai {
+    font-family: 'Trirong', serif;
+    color: white;
+    font-size: 14px;
+    display: block;
+    height: 50px;
+    padding-top: 15px;
+    background-color: #0052BD;
+}
+
+.social-sommai {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding-top: 30px;
+}
+
+.btn-signIn-navbar {
+    font-family: ThaiSansNeue-light;
+    font-size: 18px;
+    color: white;
+    background-color: #F7931E;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.nav-inner {
+    background: none;
+    height: 60px;
+    border-bottom: double;
+}
+
+.navbar-inverse .navbar-brand {
+    font-family: ThaiSansNeue-Bold;
+    font-size: 48px;
+    color: white;
+    position: absolute;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    font-family: ThaiSansNeue-light;
+    font-size: 18px;
+    color: white;
+    display: block;
+    margin-top: 5px;
+}
+
+.collapse.in {
+    background-color: #0052BD;
+    border: none;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background: none;
+}
+
+.navbar-toggle {
+    margin-top: 15px;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    margin-top: 15px;
+}
+
+.navbar-inverse {
+    border: none;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #F7931E;
+    border-bottom: solid;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1030;
+    background-color: #0052BD;
+    height: 60px;
+}
+
+.fa-inverse{
+    color: black;
+}
+.fa-circle{
+    color: white;
+}
+
+.contact-form{
+}
+.contact-form .textarea{
+    min-height:60px;
+    resize:none;
+    color: white;
+    background: none;
+    border: none;
+    border-radius: 0px;
+    border-bottom: solid;
+}
+.form-control{
+    height: 30px;
+    background: none;
+    border: none;
+    color: white;
+    border-radius: 0px;
+    border-bottom: solid 2px white;
+    margin-bottom: 20px;
+}
+.form-control:focus{
+    box-shadow:none;
+    border-color:white;
+}
+.form-control-feedback{
+    line-height:50px;
+}
+.main-btn{
+    background-color: #F7931E;
+    border-radius: 30px;
+    color:#fff;
+}
+.main-btn:hover{
+    background-color: #F7931E;
+    color:black;
+}
+.form-control-feedback {
+    line-height: 50px;
+    top: 0px;
+}
+/*@media only screen and (max-width: 768px){*/
+    /*.footerRight{*/
+        /*float: right;*/
+        /*margin-top: -45px;*/
+    /*}*/
+/*}*/
+/*@media only screen and (max-width: 600px) and (min-width: 320px ){*/
+    /*.footerRight{*/
+        /*margin-left: 35%;*/
+        /*margin-top: 10px;*/
+        /*float: none;*/
+    /*}*/
+/*}*/
