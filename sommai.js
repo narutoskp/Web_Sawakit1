@@ -6,38 +6,45 @@ $(window).scroll(function () {
     else navber.removeClass('fixed');
 });
 
-// $('#contact-form').bootstrapValidator({
-// //        live: 'disabled',
-//     message: 'This value is not valid',
-//     feedbackIcons: {
-//         valid: 'glyphicon glyphicon-ok',
-//         invalid: 'glyphicon glyphicon-remove',
-//         validating: 'glyphicon glyphicon-refresh'
-//     },
-//     fields: {
-//         Name: {
-//             validators: {
-//                 notEmpty: {
-//                     message: 'The Name is required and cannot be empty'
-//                 }
-//             }
-//         },
-//         email: {
-//             validators: {
-//                 notEmpty: {
-//                     message: 'The email address is required'
-//                 },
-//                 emailAddress: {
-//                     message: 'The email address is not valid'
-//                 }
-//             }
-//         },
-//         Message: {
-//             validators: {
-//                 notEmpty: {
-//                     message: 'The Message is required and cannot be empty'
-//                 }
-//             }
-//         }
-//     }
-// });
+$('#contact-form-sommai').bootstrapValidator({
+    live: 'disabled',
+    message: 'This value is not valid',
+    feedbackIcons: {
+        valid: 'glyphicon glyphicon-ok',
+        invalid: 'glyphicon glyphicon-remove',
+        validating: 'glyphicon glyphicon-refresh'
+    },
+    fields: {
+        Name: {
+            validators: {
+                notEmpty: {
+                    message: 'ยังไม่ได้ใส่ชื่อผู้ติดต่อ'
+                }
+            }
+        },
+        nameSchool: {
+            validators: {
+                notEmpty: {
+                    message: 'ยังไม่ได้ใส่ชื่อโรงเรียนหรือสถาบัน'
+                }
+            }
+        },
+        email: {
+            validators: {
+                notEmpty: {
+                    message: 'ยังไม่ได้ใส่อีเมล์'
+                },
+                emailAddress: {
+                    message: 'รูปแบบอีเมล์ไม่ถูกต้อง'
+                }
+            }
+        },
+        Message: {
+            validators: {
+                notEmpty: {
+                    message: 'ไม่มีข้อความหรือยังไม่ได้ใส่ข้อความ'
+                }
+            }
+        }
+    }
+});
