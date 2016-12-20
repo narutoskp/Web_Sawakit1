@@ -183,11 +183,11 @@ html, body {
     font-size: 24px;
     background-color: #F7931E;
     color: white;
+    margin-bottom: 100px;
     padding-left: 40px;
     padding-right: 40px;
     margin-top: 50px;
     border-radius: 30px;
-    margin-bottom: 100px;
 }
 .btn-warning:hover{
     color: #1A1A1A;
