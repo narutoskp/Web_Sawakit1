@@ -90,17 +90,17 @@ html, body {
     padding-top: 20px;
 }
 
-.btn-vdo {
-    font-family: ThaiSansNeue-light;
-    font-size: 18px;
-    text-decoration: none;
-    color: white;
-    background: no-repeat;
-    border: none;
-    position: static;
-    padding-top: 10px;
-    margin-bottom: 100px;
-}
+/*.btn-vdo {*/
+    /*font-family: ThaiSansNeue-light;*/
+    /*font-size: 18px;*/
+    /*text-decoration: none;*/
+    /*color: white;*/
+    /*background: no-repeat;*/
+    /*border: none;*/
+    /*position: static;*/
+    /*padding-top: 10px;*/
+    /*margin-bottom: 100px;*/
+/*}*/
 .btn-vdo:hover{
     text-decoration: underline;
 }
