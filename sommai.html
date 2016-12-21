@@ -28,7 +28,11 @@
                         <!--<li><a href="#">แพ็คเกจ</a></li>-->
                         <!--<li><a href="#ContactUS">ติดต่อเรา</a></li>-->
                         <li>
-                            <button class="btn btn-signIn-navbar" onclick="location.href='#ContactUS'">ติดต่อเรา</button>
+                            <button class="btn btn-signIn-navbar"
+                                    onclick="location.href='#ContactUS'"
+                                    ga-on="click"
+                                    ga-event-category="follow"
+                                    ga-event-action="contact">ติดต่อเรา</button>
                         </li>
                     </ul>
                 </div>
@@ -50,7 +54,11 @@
                 </div>
                 <div class="col-md-12">
                     <center>
-                        <button type="button" class="btn btn-warning btn-lg" onclick="location.href='#ContactUS'">ติดต่อเรา</button>
+                        <button type="button" class="btn btn-warning btn-lg"
+                                onclick="location.href='#ContactUS'"
+                                ga-on="click"
+                                ga-event-category="follow"
+                                ga-event-action="contact">ติดต่อเรา</button>
                         <br>
                         <!--<a href="#">-->
                             <!--<p class="btn-vdo"><i class="fa fa-play-circle btn"></i>ชมวิดีโอ</p>-->
@@ -109,7 +117,11 @@
                                 <p class="text-sce3-title">ระบบงานติดตามนักเรียน</p>
                                 <p class="text-sce3-deteil">ติดตามนักเรียนต้องใช้เวลาและอาศัยความรับผิดชอบของครูประจำชั้น สมหมายสามารถรายงาน ผู้บริหารและผู้ปกครองได้แบบทันที</p>
                                 <center>
-                                    <button type="button" class="btn btn-more" onclick="location.href='#ContactUS'">ปรึกษา ทีมงาน</button>
+                                    <button type="button" class="btn btn-more"
+                                            onclick="location.href='#ContactUS'"
+                                            ga-on="click"
+                                            ga-event-category="follow"
+                                            ga-event-action="contact">ปรึกษา ทีมงาน</button>
                                 </center>
                             </div>
                             <div class="col-sm-4">
@@ -117,7 +129,11 @@
                                 <p class="text-sce3-title">ระบบงานประเมินนักเรียน</p>
                                 <p class="text-sce3-deteil">ต้องคำนวณ SDQ ด้วยมือ ให้กับนักเรียน 1,000 คน สมหมายมีระบบคำนวณ SDQ อัตโนมัติ พร้อมปรับปรุงผลได้ตลอดเวลา</p>
                                 <center>
-                                    <button type="button" class="btn btn-more" onclick="location.href='#ContactUS'">ปรึกษา ทีมงาน</button>
+                                    <button type="button" class="btn btn-more"
+                                            onclick="location.href='#ContactUS'"
+                                            ga-on="click"
+                                            ga-event-category="follow"
+                                            ga-event-action="contact">ปรึกษา ทีมงาน</button>
                                 </center>
                             </div>
                             <div class="col-sm-4">
@@ -125,7 +141,11 @@
                                 <p class="text-sce3-title">ระบบงานจัดการบุคลากร</p>
                                 <p class="text-sce3-deteil">คำนวณขึ้นเงินเดือนรายปีต้องรบรวมข้อมูล มา ลา ขาด ของบุคลากร สมหมายติดต่อกับฐานข้อมูลลงเวลาด้วย Fingerprint แล้วสรุปยอดได้ทันที</p>
                                 <center>
-                                    <button type="button" class="btn btn-more" onclick="location.href='#ContactUS'">ปรึกษา ทีมงาน</button>
+                                    <button type="button" class="btn btn-more"
+                                            onclick="location.href='#ContactUS'"
+                                            ga-on="click"
+                                            ga-event-category="follow"
+                                            ga-event-action="contact">ปรึกษา ทีมงาน</button>
                                 </center>
                             </div>
                         </div>
@@ -145,7 +165,11 @@
                     <p>การบริหารวิชาการ การบริหารงบประมาณ การบริหารงานบุคคล และ การบริหารทั่วไป</p>
                 </div>
                 <center>
-                    <button type="button" class="btn btn-warning btn-lg" onclick="location.href='#ContactUS'"
+                    <button type="button" class="btn btn-warning btn-lg"
+                            onclick="location.href='#ContactUS'"
+                            ga-on="click"
+                            ga-event-category="follow"
+                            ga-event-action="contact"
                             style="margin-top: -30px; margin-bottom: 100px;">
                         ติดต่อเรา
                     </button>
@@ -241,11 +265,13 @@
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
         ga('create', 'UA-4982849-18', 'auto');
         ga('send', 'pageview');
+        ga('require', 'eventTracker');
 
     </script>
-    <script src="sommai.js" type="text/javascript"></script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    <script async src='path/to/autotrack.js'></script>
+    <script src='sommai.js' type="text/javascript"></script>
 </body>
 </html>
