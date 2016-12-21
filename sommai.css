@@ -216,7 +216,7 @@ html, body {
     color: white;
     font-size: 14px;
     display: block;
-    height: 50px;
+    height: auto;
     padding-top: 15px;
     background-color: #0052BD;
 }
