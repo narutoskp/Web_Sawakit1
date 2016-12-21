@@ -115,12 +115,10 @@ html, body {
 
 .text_detail2 {
     font-family: 'Trirong', serif;
-    font-weight: lighter;
-    color: white;
+    color: black;
     font-size: 18px;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 100px;
 }
 
 .text_head3 {
