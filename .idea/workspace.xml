@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23a60d6e-45da-4aa0-af4b-4660371233a1" name="Default" comment="" />
+    <list default="true" id="23a60d6e-45da-4aa0-af4b-4660371233a1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sommai.html" afterPath="$PROJECT_DIR$/sommai.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sommai.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sommai.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sommai.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="177" column="36" lean-forward="false" selection-start-line="177" selection-start-column="36" selection-end-line="177" selection-end-column="36" />
+            <state relative-caret-position="289">
+              <caret line="190" column="65" lean-forward="false" selection-start-line="190" selection-start-column="65" selection-end-line="190" selection-end-column="65" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -36,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sommai.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sommai.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sommai.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="353">
@@ -78,8 +80,8 @@
       <list>
         <option value="$PROJECT_DIR$/contact_us.php" />
         <option value="$PROJECT_DIR$/sommai.js" />
-        <option value="$PROJECT_DIR$/sommai.html" />
         <option value="$PROJECT_DIR$/sommai.css" />
+        <option value="$PROJECT_DIR$/sommai.html" />
       </list>
     </option>
   </component>
@@ -215,15 +217,15 @@
       <workItem from="1482302644289" duration="510000" />
       <workItem from="1482304668736" duration="5536000" />
       <workItem from="1482312049799" duration="4237000" />
-      <workItem from="1482374141808" duration="2095000" />
+      <workItem from="1482374141808" duration="2234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83947000" />
+    <option name="totallyTimeSpent" value="84086000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28971255" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -596,10 +598,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sommai.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="363" column="24" lean-forward="true" selection-start-line="363" selection-start-column="24" selection-end-line="363" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sommai.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="177" column="36" lean-forward="false" selection-start-line="177" selection-start-column="36" selection-end-line="177" selection-end-column="36" />
+        <state relative-caret-position="289">
+          <caret line="190" column="65" lean-forward="false" selection-start-line="190" selection-start-column="65" selection-end-line="190" selection-end-column="65" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -609,14 +619,6 @@
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sommai.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="363" column="24" lean-forward="true" selection-start-line="363" selection-start-column="24" selection-end-line="363" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
