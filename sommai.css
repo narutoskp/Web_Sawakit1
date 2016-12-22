@@ -348,12 +348,32 @@ html, body {
     line-height: 50px;
     top: 0px;
 }
-@media only screen and (max-width: 768px){
-    .textSocial{
-        letter-spacing: normal;
-
+@media only screen and (min-width: 768px){
+    .fa-inverse{
+        padding-left: 200px;
     }
 }
-@media only screen and (max-width: 600px) and (min-width: 320px ){
-
+@media only screen and (max-width: 768px) and (min-width: 320px){
+    .textSocial{
+        letter-spacing: normal;
+    }
+    .text_head3{
+        font-size: 32px;
+    }
+    .text_head1{
+        font-size: 50px;
+    }
+    .text_detail1{
+        font-size: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .navbar-inverse .navbar-brand{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 1366px) and (min-width: 1024px){
+    .fa-inverse{
+        margin-left: -240px;
+    }
 }
