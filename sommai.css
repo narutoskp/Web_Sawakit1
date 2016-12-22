@@ -389,15 +389,6 @@ html, body {
     }
 }
 
-
-@media only screen and (max-width: 1024px){
-    .fa-inverse {
-        margin-left: -300px;
-    }
-    .container-fluid>.navbar-header{
-        background-color: #0052BD;
-    }
-}
 @media only screen and (max-width: 768px){
     .fa-inverse {
         margin-left: 10px;
@@ -424,10 +415,23 @@ html, body {
         padding-right: 30px;
         padding-left: 30px;
     }
+    #section1{
+        background-image:linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("img/bg-sommai.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
 
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .col-md-offset-4 {
         margin-left: 35%;
+    }
+    .fa-inverse {
+        margin-left: -100px;
+    }
+    .container-fluid>.navbar-header{
+        background-color: #0052BD;
     }
 }
