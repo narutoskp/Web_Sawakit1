@@ -1,27 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Trirong:300,700&subset=thai');
 @import url('https://fonts.googleapis.com/css?family=Maitree');
-
-@font-face {
-    font-family: ThaiSansNeue-Bold;
-    src: url(font/ThaiSansNeue-Bold.otf);
-}
-
-@font-face {
-    font-family: ThaiSansNeue-light;
-    src: url(font/ThaiSansNeue-Light.otf);
-}
-
-@font-face {
-    font-family: ThaiSansNeue-reguler;
-    src: url(font/ThaiSansNeue-Regular.otf);
-}
 
 html, body {
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("img/bg-sommai.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    background-size: cover;
 
     margin: 0;
     position: relative;
@@ -397,7 +381,7 @@ html, body {
         background-color: #0052BD;
     }
 }
-@media only screen and (max-width: 320px){
+@media only screen and (max-device-width: 320px){
     .container-fluid>.navbar-header{
         background-color: #0052BD;
     }
