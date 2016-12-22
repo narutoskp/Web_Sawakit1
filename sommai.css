@@ -390,14 +390,48 @@ html, body {
     .navbar-inverse .navbar-brand {
         font-size: 35px;
     }
-}
-
-@media only screen and (max-width: 1366px) and (min-width: 1024px) {
-    .fa-inverse {
-        margin-left: -240px;
+    .container-fluid>.navbar-header{
+        background-color: #0052BD;
     }
 }
 
+
+@media only screen and (max-width: 1024px){
+    .fa-inverse {
+        margin-left: -300px;
+    }
+    .container-fluid>.navbar-header{
+        background-color: #0052BD;
+    }
+}
+@media only screen and (max-width: 768px){
+    .fa-inverse {
+        margin-left: 10px;
+    }
+    .container-fluid>.navbar-header{
+        background-color: #0052BD;
+    }
+}
+@media only screen and (max-width: 320px){
+    .container-fluid>.navbar-header{
+        background-color: #0052BD;
+    }
+    .textSocial {
+        letter-spacing: normal;
+        font-size: 20px;
+    }
+    .text_head1 {
+        font-size: 40px;
+        margin-top: 15px;
+    }
+
+    .text_detail1 {
+        font-size: 20px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+}
 @media (min-width: 992px) {
     .col-md-offset-4 {
         margin-left: 40%;
